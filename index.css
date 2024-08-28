@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(112, 82, 232);
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+  margin-top: 12rem;
+    display: grid;
+    grid-template-rows: 144.5px 144.9px ;
+    grid-template-columns:145px 144.5px 144.1px
+}
+.box{
+    border: 4px solid white;
+    height: 9rem;
+    width: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    font-family:'Courier New', Courier, monospace;
+    cursor: pointer;
+    color: white;
+}
+.bt{
+    border-top: none;
+}
+.bl{
+    border-left: none;
+}
+.br{
+    border-right: none;
+}
+.bb{
+    border-bottom: none;
+}
+.last{
+    margin-left: 6rem;
+    margin-bottom: 4rem;
+}
+.last h1{
+    color: rgb(252, 5, 17);
+}
+.result h1{
+    color: rgb(69, 249, 4);
+    margin-top: 2rem;
+}
+button{
+    font-size: 2rem;
+    padding: 0.6rem;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    color: rebeccapurple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+.gifmain{
+    display: flex;
+    justify-content: space-evenly;
+}
+.gif{
+    padding: 2rem;
+}
+.gif img{
+    border-radius: 7rem;
+    width: 15rem;
+    border: 2px solid red;
+}
